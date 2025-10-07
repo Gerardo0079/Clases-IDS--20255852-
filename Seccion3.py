@@ -17,8 +17,16 @@ com_num = 7 > 5
 print ("Siete es mayor que 5? ", com_num)
 
 x, y = 10, -10 
-print (x is y, x is not y)
+print(f"x es y? {x is y}")
+print(f"x no es y? {x is not y}")
 
 num_input = int (input ("Ingrese un numero entero: "))
+print (num_input%2 is 0)
+
+booleano = True 
+
+
+
+
 
 
