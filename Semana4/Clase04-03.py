@@ -17,6 +17,7 @@ print (my_string[letra])"""
 # print(my_string[0])
 # print (my_string[1:5:3]) # Hace intervalos, excluye el número final. Luego está el tamaño del paso o salto
 # Para subsetting por slices
+# INICIO: FIN : SALTO
 
 #print ("O" not in my_string)
 #print ("A" *8)
@@ -24,6 +25,13 @@ print (my_string[letra])"""
 #print (max(my_string))
 
 print (my_string.count("C"))
+
+palabra = "RECONOCER"
+print (len(palabra))
+print (palabra[::-1])
+print (my_string [::-1])
+palabra2 = "Sorbete"
+print (palabra = palabra[::-1])  # Comparar si son palindromos
 
 
 
