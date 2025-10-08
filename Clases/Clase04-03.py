@@ -26,12 +26,7 @@ print (my_string[letra])"""
 
 print (my_string.count("C"))
 
-palabra = "RECONOCER"
-print (len(palabra))
-print (palabra[::-1])
-print (my_string [::-1])
-palabra2 = "Sorbete"
-print (palabra = palabra[::-1])  # Comparar si son palindromos
+
 
 
 
