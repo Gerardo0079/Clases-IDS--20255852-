@@ -23,7 +23,34 @@ print(f"x no es y? {x is not y}")
 num_input = int (input ("Ingrese un numero entero: "))
 print (num_input%2 is 0)
 
-booleano = True 
+registrado = True
+# Operador NOT (negación), invierte el valor booleano
+print(f"not registrado: {not registrado}") # Salida: False
+
+# Operador AND (y), el resultado es True solo si ambos operandos son True
+print(f"registrado and True: {registrado and True}") # Salida: True
+print(f"registrado and False: {registrado and False}") # Salida: False
+
+# Operador OR (o)
+# El resultado es True si al menos un operando es True
+print(f"registrado or True: {registrado or True}") # Salida: True
+print(f"registrado or False: {registrado or False}") # Salida: True
+
+num1 = float (input ("Ingresa el primer número: ")) 
+num2 = float (input ("Ingresa el segundo número: ")) 
+Lista = (num1,num2)
+print (F"El mayor es: {max(Lista)}")
+
+
+edad = int (input ("Ingresa tu edad: "))
+mensajes = {True: "Puedes votar.", False: "No puedes votar todavía."}
+print(mensajes[edad >= 18])
+
+edad, estudiante = 50, False
+print(edad == 50 and estudiante)
+
+
+
 
 
 
