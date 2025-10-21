@@ -7,11 +7,11 @@ print (len(s1))
 print (len(s2))
 print (len(s3)) """
 
-my_string = "ABCDEFGHICCC" #string, cadena de texto 
-"""letra = int (input ("Indique el indece de la letra a mostrar (del 0 al 4): "))
+my_string = "ABCDEFGHCVHV" #string, cadena de texto 
+#letra = int (input ("Indique el indece de la letra a mostrar (del 0 al 4): "))
 
-print (my_string[0])
-print (my_string[letra])"""
+#print (my_string[0])
+#print (my_string[letra])
 
 #print (len(my_string))
 # print(my_string[0])
@@ -19,10 +19,10 @@ print (my_string[letra])"""
 # Para subsetting por slices
 # INICIO: FIN : SALTO
 
-#print ("O" not in my_string)
-#print ("A" *8)
-#print (min(my_string))
-#print (max(my_string))
+print ("O" not in my_string)
+print ("A" *8)
+print (min(my_string))
+print (max(my_string))
 
 print (my_string.count("C"))
 
