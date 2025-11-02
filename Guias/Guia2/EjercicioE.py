@@ -1,11 +1,13 @@
-combos  = int (input ())
-Pa, Pb, Pc = int(input ( )), int(input ( )), int(input ( ))
-i = 0 
-tipos = []
+combos = int(input())
+Pa, Pb, Pc = map(int, input().split())
+
 tipos_damage = []
-while i != combos: 
-    tipos.append(input ())
-    tipos_damage[i] =  (tipos[i].count("A") * Pa) + (tipos.count[i]("B") * Pb) + (tipos.count[i]("C") * Pc)
-    i = i +1
-print (tipos_damage)
-    
+
+for i in range(combos):
+    s = input()
+    dmg = s.count("A") * Pa + s.count("B") * Pb + s.count("C") * Pc
+    tipos_damage.append(dmg)
+print(*tipos_damage, sep = "\n")  
+
+
+  
